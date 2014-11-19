@@ -1,13 +1,13 @@
-# Titlecaser
+# Gettysburg
 
-TODO: Write a gem description
+Convert street addresses and personal or company names to title case from full caps (or all lowercase).
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'titlecaser'
+gem 'gettysburg'
 ```
 
 And then execute:
@@ -16,15 +16,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install titlecaser
+    $ gem install gettysburg
 
 ## Usage
 
-TODO: Write usage instructions here
+This monkeypatches String with `#titlecase` and `#titlecase!` methods.  These should apply correct titlecasing and leave things like NE, NW, PO (in PO Box), LLC, INC, and so on, alone.  
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/titlecaser/fork )
+1. Fork it ( https://github.com/[my-github-username]/gettysburg/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

@@ -1,7 +1,7 @@
-require 'titlecaser/version'
+require 'gettysburg/version'
 require 'set'
 
-module Titlecaser
+module Gettysburg
   class Lexer
     @@regex_table = {
       us: /^USA?/,

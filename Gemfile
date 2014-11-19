@@ -15,5 +15,5 @@ group :test do
   gem 'rspec-its'
 end
 
-# Specify your gem's dependencies in titlecaser.gemspec
+# Specify your gem's dependencies in gettysburg.gemspec
 gemspec

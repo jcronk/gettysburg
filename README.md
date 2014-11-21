@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/jcronk/gettysburg/badges/gpa.svg)](https://codeclimate.com/github/jcronk/gettysburg)
 # Gettysburg
 
 Convert street addresses and personal or company names to title case from full caps (or all lowercase).
